@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "SchematicsHelloWorld",
+  "title": "Hello World Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Your Name",
+      "x-prompt": "What is your name?"
+    },
+    "project": {
+      "type": "string",
+      "description": "Your project",
+      "x-prompt": "Which project?"
+    }
+  },
+  "required": ["name"]
+}
